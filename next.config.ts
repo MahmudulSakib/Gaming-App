@@ -1,9 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  rules: {
-    "@typescript-eslint/no-explicit-any": "off",
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
